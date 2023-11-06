@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #B2C8BA;
+}
+.container {
+    width: 350px;
+    background-color: #fff;
+    padding: 20px 25px;
+    border: 1px solid #B2C8BA;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+.input-field input {
+    width: 100%;
+    font-size: 15px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.input-field input:focus {
+    outline: none;
+}
+p {
+    font-size: 15px;
+}
+.input-field p::before {
+    content: "*";
+    color: red;
+    margin-right: 3px;
+}
